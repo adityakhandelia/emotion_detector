@@ -1,8 +1,7 @@
-streamlit
-torch
-torchaudio
-joblib
+streamlit>=1.25
+torch>=2.0.0,<2.8.0
+torchaudio>=2.0.0,<2.8.0
 numpy
+joblib
 pydub
 av
-io
