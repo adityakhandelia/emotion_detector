@@ -1,0 +1,8 @@
+streamlit
+torch
+torchaudio
+joblib
+numpy
+pydub
+av
+io
