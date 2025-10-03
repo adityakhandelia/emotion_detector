@@ -5,7 +5,6 @@ import torchaudio
 import joblib
 import numpy as np
 import tempfile
-from pydub import AudioSegment
 import io, tempfile
 torchaudio.set_audio_backend("sox_io")
 # ----------------------------
@@ -136,3 +135,4 @@ elif option == "Record Audio":
             emotion = le.inverse_transform([predicted])[0]
 
         st.success(f"Predicted Emotion: **{emotion}**")
+
